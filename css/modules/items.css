@@ -1,0 +1,35 @@
+.item-navbar {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .item-navbar .item-nav {
+    background-color: #012730;
+    padding: 18px 26px;
+    font-family: "Roboto Slab"; }
+    .item-navbar .item-nav:hover {
+      background-color: #073642;
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s; }
+      .item-navbar .item-nav:hover a {
+        color: #000030; }
+
+.site-title {
+  margin: 30px; }
+
+.article {
+  padding: 10px 7px 10px 7px;
+  margin: 5px 0px;
+  background-color: #073642;
+  -webkit-box-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+  border: 0.5px black solid; }
+
+.side-title {
+  font-size: 25px; }
+
+.side-title2 {
+  font-size: 20px;
+  margin-top: 20px; }

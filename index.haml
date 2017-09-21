@@ -1,0 +1,40 @@
+%html
+	%head
+		%title BoBlog
+		%meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+		%link{"rel" => "stylesheet", "href" => "css/style.css", "type" => "text/css"}
+		%link(href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Slab|Slabo+27px|Ubuntu+Mono" rel="stylesheet")
+	%body
+		%header.l-header
+			%h1.site-title BoBlog
+			%nav.l-navbar
+				%ul.item-navbar
+					%li.item-nav
+						%a{:href => "about.html"} A propos
+					%li.item-nav
+						%a{:href => "git/"} /git/
+					%li.item-nav
+						%a{:href => "reseaux.html"} Reseaux
+					%li.item-nav
+						%a{:href => "lorem.html"} Lorem Ipsum
+		%aside.l-sidebar
+			%h1.side-title
+				Derniers articles
+			%h2.side-title2
+				Lorem Ipsum
+			%p
+				Consectetur
+			%h2.side-title2
+				Dolor sit Amet
+			%p
+				Temporibus molestiae
+		%main.l-main
+			.article
+				%h1.article-title Titre
+				%content.article-content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cum necessitatibus, reprehenderit commodi laborum ipsum adipisci blanditiis vitae sunt voluptates rerum, temporibus molestiae nesciunt sint atque. Dolore excepturi soluta, sed.
+			.article
+				%h1.article-title Lorem
+				%content.article-content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, nihil minima deleniti iusto. Pariatur sit odio dignissimos, repellendus laudantium at sunt quasi consectetur debitis quae veritatis, facilis blanditiis aut voluptatibus!
+			.article
+				%h1.article-title Ipsum
+				%content.article-content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, nihil minima deleniti iusto. Pariatur sit odio dignissimos, repellendus laudantium at sunt quasi consectetur debitis quae veritatis, facilis blanditiis aut voluptatibus!

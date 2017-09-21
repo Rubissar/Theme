@@ -1,0 +1,11 @@
+.l-sidebar {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin: 25px 5% 0 0;
+  width: 25%;
+  background-color: #073642;
+  -webkit-box-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+  border: 0.5px black solid;
+  padding: 7px; }
