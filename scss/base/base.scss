@@ -53,7 +53,8 @@ h5 {
 a {
 	color: #839496;
 	&:hover {
-		color: #000050;
+		color: #000000;
+    transition: 0.5s;
 	}
 }
 

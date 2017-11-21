@@ -26,6 +26,12 @@
 	background-color: #073642;
 	box-shadow: 2px 2px black;
 	border: 0.5px black solid;
+	.article-item
+	{
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
 }
 
 .side-title {
@@ -34,4 +40,13 @@
 .side-title2 {
 	font-size: 20px;
 	margin-top: 20px;
+}
+
+.article-content {
+	strong {
+		animation: test 1s line 1s infinite none freeze;	
+	}
+	ul {
+		margin-left: 30px;
+	}
 }

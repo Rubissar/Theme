@@ -2,45 +2,59 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 html {
   width: 100%;
   height: 100%;
   background-color: #002b36;
-  color: #839496; }
+  color: #839496;
+}
 
 body {
   width: 60%;
   margin: auto;
-  height: 100%; }
+  height: 100%;
+}
 
 h1 {
   font-family: "Slabo 27px", serif;
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 h2 {
   font-family: "Slabo 27px", serif;
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 h3 {
   font-family: "Slabo 27px", serif;
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 h4 {
   font-family: "Slabo 27px", serif;
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 h5 {
   font-family: "Slabo 27px", serif;
   font-weight: bold;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 a {
-  color: #839496; }
-  a:hover {
-    color: #000050; }
+  color: #839496;
+}
+
+a:hover {
+  color: #000000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
